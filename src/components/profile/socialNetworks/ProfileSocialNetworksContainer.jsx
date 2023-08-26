@@ -2,7 +2,7 @@ import Networks from "./Networks";
 
 const ProfileSocialNetworksContainer = ({ networks }) => {
   return (
-    <div className="py-3 border-y border-gray-400 flex justify-around items-center">
+    <div className="flex justify-around items-center absolute bottom-0 left-0 w-full h-16">
       {networks.map((net) => (
         <Networks key={net.name} {...net} />
       ))}

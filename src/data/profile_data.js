@@ -28,7 +28,7 @@ export const profile_data = {
           name: "GitHub",
           url: "https://github.com/LucianoAmato7",
           img: "/img/github.png",
-        },
+        }
       ],
     technologies: [
         {

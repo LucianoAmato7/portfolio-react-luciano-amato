@@ -1,11 +1,15 @@
+import { profile_data } from "../../../data/profile_data.js";
+import ProfileSocialNetworksContainer from "../socialNetworks/ProfileSocialNetworksContainer.jsx"
+
 const ProfileAvatar = () => {
   return (
-    <div className="flex flex-col mt-5">
+    <div className="relative inline-block">
       <img
         src="/img/profile.png"
-        className="w-10/12 drop-shadow-2xl rounded-full"
+        className="drop-shadow-2xl rounded-full"
         alt="Luciano Amato profile"
       />
+      <ProfileSocialNetworksContainer networks={profile_data.socialNetworks} />
     </div>
   );
 };
