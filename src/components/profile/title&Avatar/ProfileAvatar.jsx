@@ -6,7 +6,7 @@ const ProfileAvatar = () => {
     <div className="relative inline-block">
       <img
         src="/img/profile.png"
-        className="drop-shadow-2xl rounded-full"
+        className="drop-shadow-xl rounded-full"
         alt="Luciano Amato profile"
       />
       <ProfileSocialNetworksContainer networks={profile_data.socialNetworks} />

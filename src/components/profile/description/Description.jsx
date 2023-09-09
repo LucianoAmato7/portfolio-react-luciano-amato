@@ -2,7 +2,7 @@ import Technologies from "../../technologies/Technologies"
 
 const Description = () => {
     return(
-        <div className="min-h-screen px-80 pt-24">
+        <div className="min-h-screen w-4/6 pt-24 flex flex-col items-center">
             <h2 className="text-7xl mb-16">Desarrollador Web Full Stack</h2>
             <p className="text-xl tracking-normal leading-relaxed">
             {/* Desarrolador Web Full Stack con conocimientos en las siguientes tecnologías: HTML, CSS, SASS, GIT / GITHUB, NODEJS, JAVASCRIPT, REACTJS, EXPRESS, MONGODB, SQL, FIREBASE. */}
