@@ -23,7 +23,7 @@ const RatingStars = () => {
     onChange: (newValue) => {
       setRating(newValue);
     }
-  };
+  }
 
   return (
     <>
@@ -36,7 +36,7 @@ const RatingStars = () => {
           </h1>
           <div className="bg-slate-100 flex flex-col py-6 items-center">
             <h3 className="text-xl mb-2">Como puntuarías este Portfolio?</h3>
-            <ReactStars {...stars} />
+            <ReactStars {...stars}/>
             <textarea 
               className="rounded-lg m-6 p-2 h-20 w-3/4 resize-y"
               id="ratingMessage"
@@ -44,7 +44,7 @@ const RatingStars = () => {
             ></textarea >
 
             <button
-              className="rounded-lg bg-indigo-500 text-white max-w-fit px-4 py-2 text-xl"
+              className="rounded-lg bg-indigo-500 hover:bg-indigo-600 hover:scale-110 transition text-white max-w-fit px-4 py-2 text-xl"
               onClick={(event) => {
                 HandleButton(event);
               }}
