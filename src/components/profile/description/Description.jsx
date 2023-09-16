@@ -1,4 +1,4 @@
-import Technologies from "../../technologies/Technologies"
+import Technologies from "../../description/technologies/Technologies"
 
 const Description = () => {
     return(
