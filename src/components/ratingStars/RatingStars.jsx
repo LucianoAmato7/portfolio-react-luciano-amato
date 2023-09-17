@@ -50,12 +50,12 @@ const RatingStars = () => {
       {rated === true ? (
         <Rated/>
       ) : (
-        <div className="rounded-lg shadow-2xl text-center pt-1 mt-6 mb-20 w-1/3 bg-white">
+        <div className="rounded-lg shadow-2xl text-center pt-1 mt-6 mb-20 w-1/3 bg-slate-50">
           <h1 className="text-3xl font-semibold my-6">
-            Tu opinión me ayuda mucho!
+            !Tu opinión me ayuda mucho!
           </h1>
           <div className="bg-slate-100 flex flex-col py-6 items-center rounded-b-lg">
-            <h3 className="text-xl mb-2">Como puntuarías este Portfolio?</h3>
+            <h3 className="text-xl mb-2">¿Como puntuarías este Portfolio?</h3>
             <ReactStars {...stars}/>
             <textarea 
               className="rounded-lg m-6 p-2 h-20 w-3/4 resize-y"
