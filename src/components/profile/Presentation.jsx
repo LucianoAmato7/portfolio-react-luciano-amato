@@ -3,7 +3,7 @@ import ProfileTitle from "./title&Avatar/ProfileTitle";
 
 const Presentation = () => {
   return (
-    <div className="flex flex-col justify-around w-5/6 my-52">
+    <div className="min-h-screen flex flex-col justify-around w-5/6 backGroundIMG">
       <div className="flex justify-around items-center align-middle">
         <ProfileTitle />
         <ProfileAvatar />

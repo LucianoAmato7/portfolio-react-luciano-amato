@@ -69,7 +69,7 @@ const RatingStars = () => {
                 HandleButton(event);
               }}
             >
-              Calificar
+              Enviar
             </button>
           </div>
         </div>
