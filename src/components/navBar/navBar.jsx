@@ -9,7 +9,7 @@ import {GrDocumentPdf} from "react-icons/gr";
 
 const NavBar = () => {
   return (
-    <div className="fixed top-0 w-full bg-slate-300 shadow-md z-10 flex justify-end pr-20 py-1">
+    <div className="z-20 opacity-95 fixed top-0 w-full bg-slate-300 shadow-md flex justify-end pr-20 py-1">
       <ul className="w-1/5 flex flex-row justify-between items-center">
         <li>
           <Link

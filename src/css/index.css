@@ -18,5 +18,42 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(82, 82, 82, 0.5);
+  filter: blur(5px);
+}
+
+.firstName::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(170, 170, 170, 0.226);
+  filter: blur(15px);
+  z-index: -1;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+  transition: 0.2s all ease-out;
+}
+
+.firstName:hover::before{
+  filter: blur(50px);
+}
+
+.avatar::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(170, 170, 170, 0.226);
+  border-radius: 100%;
+  filter: blur(30px);
+  transition: 0.2s all ease-out;
+}
+
+.avatar:hover::before{
+  filter: blur(50px);
 }
