@@ -30,7 +30,7 @@
   bottom: 0;
   left: 0;
   background-color: rgba(170, 170, 170, 0.226);
-  filter: blur(15px);
+  filter: blur(40px);
   z-index: -1;
   border-top-right-radius: 2rem;
   border-top-left-radius: 2rem;
@@ -50,7 +50,7 @@
   left: 0;
   background-color: rgba(170, 170, 170, 0.226);
   border-radius: 100%;
-  filter: blur(30px);
+  filter: blur(40px);
   transition: 0.2s all ease-out;
 }
 
