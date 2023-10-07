@@ -27,43 +27,43 @@ export const profile_data = {
       ],
     technologies: [
         {
-            name: "html", image: "/img/technologies/html.png", web: "https://lenguajehtml.com/html/"
+            name: "HTML", image: "/img/technologies/html.png", web: "https://lenguajehtml.com/html/"
         }, 
         {
-            name: "css", image: "/img/technologies/css.png", web: "https://lenguajecss.com/css/"
+            name: "CSS", image: "/img/technologies/css.png", web: "https://lenguajecss.com/css/"
         }, 
         {
-            name: "sass", image: "/img/technologies/sass.png", web: "https://sass-lang.com/"
+            name: "SASS", image: "/img/technologies/sass.png", web: "https://sass-lang.com/"
         },
         {
-            name: "javascript", image: "/img/technologies/JavaScript.png", web: "https://lenguajejs.com/"
+            name: "Javascript", image: "/img/technologies/JavaScript.png", web: "https://lenguajejs.com/"
         },
         {
-            name: "reactjs", image: "/img/technologies/react.png", web: "https://react.dev/"
+            name: "Reactjs", image: "/img/technologies/react.png", web: "https://react.dev/"
         },
         {
-            name: "express", image: "/img/technologies/express.png", web: "https://expressjs.com/"
+            name: "Express", image: "/img/technologies/express.png", web: "https://expressjs.com/"
         },
         {
-            name: "nodejs", image: "/img/technologies/nodejs.png", web: "https://nodejs.org/es"
+            name: "NodeJS", image: "/img/technologies/nodejs.png", web: "https://nodejs.org/es"
         },
         {
-            name: "git", image: "/img/technologies/git.png", web: "https://git-scm.com/"
+            name: "GIT", image: "/img/technologies/git.png", web: "https://git-scm.com/"
         },
         {
-            name: "github", image: "/img/github.png", web: "https://github.com/"
+            name: "GitHub", image: "/img/github.png", web: "https://github.com/"
         },
         {
-            name: "tailwind", image: "/img/technologies/tailwindcss.png", web: "https://tailwindcss.com/"
+            name: "TailwindCSS", image: "/img/technologies/tailwindcss.png", web: "https://tailwindcss.com/"
         },
         {
-            name: "bootstraps", image: "/img/technologies/bootstrap.png", web: "https://getbootstrap.com/"
+            name: "Bootstraps", image: "/img/technologies/bootstrap.png", web: "https://getbootstrap.com/"
         },
         {
-            name: "mongodb", image: "/img/technologies/mongodb.png", web: "https://www.mongodb.com/es"
+            name: "MongoDB", image: "/img/technologies/mongodb.png", web: "https://www.mongodb.com/es"
         },
         {
-            name: "firebase", image: "/img/technologies/firebase.png", web: "https://firebase.google.com/?hl=es"
+            name: "Firebase", image: "/img/technologies/firebase.png", web: "https://firebase.google.com/?hl=es"
         }
     ] 
 };

@@ -4,6 +4,7 @@ import Description from "./components/profile/description/description";
 import RatingStars from "./components/ratingStars/RatingStars";
 import NavBar from "./components/navBar/navBar";
 import ProyectContainer from "./components/proyects/ProyectContainer";
+import Technologies from "./components/profile/description/technologies/Technologies"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <NavBar/>
         <Presentation/>
         <Description/>
+        <Technologies/>
         <ProyectContainer/>
         <RatingStars/>
       </BrowserRouter>
