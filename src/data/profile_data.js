@@ -39,19 +39,16 @@ export const profile_data = {
             name: "Javascript", image: "/img/technologies/JavaScript.png", web: "https://lenguajejs.com/"
         },
         {
-            name: "Reactjs", image: "/img/technologies/react.png", web: "https://react.dev/"
-        },
-        {
-            name: "Express", image: "/img/technologies/express.png", web: "https://expressjs.com/"
+            name: "ReactJS", image: "/img/technologies/react.png", web: "https://react.dev/"
         },
         {
             name: "NodeJS", image: "/img/technologies/nodejs.png", web: "https://nodejs.org/es"
         },
         {
-            name: "GIT", image: "/img/technologies/git.png", web: "https://git-scm.com/"
+            name: "Express", image: "/img/technologies/express.png", web: "https://expressjs.com/"
         },
         {
-            name: "GitHub", image: "/img/github.png", web: "https://github.com/"
+            name: "GIT", image: "/img/technologies/git.png", web: "https://git-scm.com/"
         },
         {
             name: "TailwindCSS", image: "/img/technologies/tailwindcss.png", web: "https://tailwindcss.com/"

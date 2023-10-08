@@ -5,19 +5,19 @@ import {
   AiOutlineMail,
   AiOutlineWhatsApp,
 } from "react-icons/ai";
-import {GrDocumentPdf} from "react-icons/gr";
+import {BsFiletypePdf} from "react-icons/bs";
 
 const NavBar = () => {
   return (
-    <div className="z-20 opacity-95 fixed top-0 w-full bg-slate-300 shadow-md flex justify-end pr-20 py-1">
-      <ul className="w-1/5 flex flex-row justify-between items-center">
+    <div className="z-20 opacity-95 fixed top-0 w-full bg-slate-800 shadow-md flex justify-end pr-20 py-1">
+      <ul className="w-1/5 flex flex-row justify-between items-center text-slate-200 text-2xl">
         <li>
           <Link
             to="https://api.whatsapp.com/send?phone=5491138752819"
             target="_blank"
             title="whatsapp"
           >
-            <AiOutlineWhatsApp className="text-2xl" />
+            <AiOutlineWhatsApp />
           </Link>
         </li>
         <li>
@@ -26,22 +26,22 @@ const NavBar = () => {
             target="_blank"
             title="LinkedIn"
           >
-            <AiFillLinkedin className="text-2xl" />
+            <AiFillLinkedin />
           </Link>
         </li>
         <li>
           <Link to="https://github.com/LucianoAmato7/" target="_blank" title="GitHub">
-            <AiFillGithub className="text-2xl" />
+            <AiFillGithub />
           </Link>
         </li>
         <li>
           <Link to="mailto:luciano2697@outlook.com.ar" title="E-mail">
-            <AiOutlineMail className="text-2xl" />
+            <AiOutlineMail />
           </Link>
         </li>
         <li>
           <Link to="/pdf/CurriculumVitae-LucianoAmato.pdf" target="_blank" title="CV">
-              <GrDocumentPdf className="text-xl"/>
+              <BsFiletypePdf/>
           </Link>
         </li>
       </ul>
