@@ -73,5 +73,9 @@ body{
 } */
 
 .techsCards:hover{
-  background-color: rgba(255, 192, 75, 0.596);
+  background-color: rgba(253, 197, 92, 0.596);
 }
+
+/* .proyectsCards:hover{
+  background-color: rgba(253, 197, 92, 0.596);
+} */

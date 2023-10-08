@@ -16,7 +16,7 @@ const Technologies = () => {
                 src={techs.image}
                 alt={techs.name}
               />
-              <p className="text-white text-center text-lg mt-2">
+              <p className="text-white text-center text-lg mt-2 tracking-wider">
                 {techs.name}
               </p>
             </div>
