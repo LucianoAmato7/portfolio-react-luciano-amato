@@ -39,7 +39,7 @@ const RatingStars = () => {
       {rated === true ? (
         <Rated />
       ) : (
-        <div className="rounded-lg shadow-2xl text-center pt-1 mt-6 mb-20 w-1/3 bg-slate-700">
+        <div className="rounded-lg shadow-2xl text-center pt-1 mt-6 mb-20 w-1/3 bg-slate-700" data-aos="fade-up">
           <h1 className="text-3xl font-semibold my-6 text-slate-200">
             !Tu opinión me ayuda mucho!
           </h1>

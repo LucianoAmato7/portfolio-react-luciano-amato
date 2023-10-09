@@ -9,7 +9,7 @@ import {BsFiletypePdf} from "react-icons/bs";
 
 const NavBar = () => {
   return (
-    <div className="z-20 opacity-95 fixed top-0 w-full bg-slate-800 shadow-md flex justify-end pr-20 py-1">
+    <div className="z-20 opacity-95 fixed top-0 w-full bg-slate-800 shadow-md flex justify-end pr-20 py-1" data-aos="fade-down">
       <ul className="w-1/5 flex flex-row justify-between items-center text-slate-200 text-2xl">
         <li>
           <Link

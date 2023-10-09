@@ -9,7 +9,7 @@ const Technologies = () => {
       </h3>
       <div className="grid grid-cols-2 md:grid-cols-4 grid-flow-row items-center bg-slate-800 rounded-b-xl rounded-tr-xl shadow-2xl">
         {profile_data.technologies.map((techs, index) => (
-          <Link key={index} to={`${techs.web}`} target="_blank">
+          <Link key={index} to={`${techs.web}`} target="_blank" data-aos="zoom-in">
             <div className="rounded-lg bg-slate-700 flex flex-col justify-between p-8 m-2 techsCards ease-in duration-100">
               <img
                 className="w-24 self-center"

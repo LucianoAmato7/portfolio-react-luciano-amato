@@ -3,7 +3,7 @@ import ProfileSocialNetworksContainer from "./socialNetworks/ProfileSocialNetwor
 
 const ProfileAvatar = () => {
   return (
-    <div className="relative rounded-full avatar">
+    <div className="relative rounded-full avatar" data-aos="zoom-in">
       <img
         src="/img/profile.png"
         className="drop-shadow-2xl rounded-full"

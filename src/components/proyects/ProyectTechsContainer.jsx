@@ -13,7 +13,6 @@ const ProyectTechsContainer = ({ techs }) => {
           alt={t.name}
           className="w-2/4 rounded-lg bg-slate-700 p-3 bg-opacity-60"
           data-aos="zoom-in" 
-          data-aos-duration="400"
         />
       ))}
     </div>

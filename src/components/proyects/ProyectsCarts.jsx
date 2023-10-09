@@ -11,6 +11,7 @@ const ProyectsCarts = ({ name, imagePC, imageMobile, url, techs }) => {
       target="_blank"
       onMouseEnter={() => setShowTechs(true)}
       onMouseLeave={() => setShowTechs(false)}
+      data-aos="zoom-in"
     >
       <div className="relative rounded-lg bg-slate-700 flex flex-col justify-between proyectsCards ease-in duration-100 p-3 m-5">
         <h2 className="text-center text-lg font-bold mb-3 italic text-slate-50 tracking-widest underline">
