@@ -65,6 +65,30 @@ export const profile_data = {
         },
       ],
     },
+    {
+      name: "API RESTful | E-commerce",
+      imagePC: "/img/apirestful.png",
+      imageMobile: "",
+      url: "https://github.com/LucianoAmato7/Proyecto-Final-Backend-Coderhouse",
+      techs: [
+        {
+          name: "Javascript",
+          image: "/img/technologies/JavaScript.png",
+        },
+        {
+          name: "NodeJS",
+          image: "/img/technologies/nodejs.png",
+        },
+        {
+          name: "Express",
+          image: "/img/technologies/express.png",
+        },
+        {
+          name: "MongoDB",
+          image: "/img/technologies/mongodb.png",
+        }
+      ],
+    },
   ],
   socialNetworks: [
     {
@@ -107,7 +131,7 @@ export const profile_data = {
     {
       name: "NodeJS",
       image: "/img/technologies/nodejs.png",
-      web: "https://nodejs.org/es",
+      web: "https://nodejs.org/en/about",
     },
     {
       name: "Express",

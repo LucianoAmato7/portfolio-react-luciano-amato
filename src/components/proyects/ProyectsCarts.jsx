@@ -7,6 +7,7 @@ const ProyectsCarts = ({ name, imagePC, imageMobile, url, techs }) => {
 
   return (
     <Link
+      className="md:w-1/2 w-auto"
       to={`${url}`}
       target="_blank"
       onMouseEnter={() => setShowTechs(true)}
@@ -32,6 +33,4 @@ const ProyectsCarts = ({ name, imagePC, imageMobile, url, techs }) => {
 
 export default ProyectsCarts;
 
-//LAS TECNOLOGIAS APARECEN DE GOLPE, POR LO CUAL VAN A TENER UNA ANIMACION "ZOOM" DE AOS.
 //VER COMO Y EN DONDE PONER LA IMAGEN DE MOBILE
-//AGREGAR 3ER PROYECTO DE APIREST CON  LINK A GITHUB
