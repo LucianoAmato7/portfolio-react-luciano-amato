@@ -23,7 +23,7 @@ function App() {
         <Description/>
         <Technologies/>
         <ProyectContainer/>
-        <RatingStars/>
+        {/* <RatingStars/> */}
       </BrowserRouter>
     </div>
   );

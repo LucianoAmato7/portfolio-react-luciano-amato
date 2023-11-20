@@ -32,8 +32,6 @@ const RatingStars = () => {
     },
   };
 
-
-
   return (
     <>
       {rated === true ? (
@@ -69,6 +67,5 @@ const RatingStars = () => {
 
 export default RatingStars;
 
-//https://www.npmjs.com/package/react-rating-stars-component
 //MEJORAR MENSAJE DE GRACIAS POR CALIFICAR
 // QUE SEA REQUERIDO EL APLICAR UN VALOR ANTES DE CALIFICAR
