@@ -1,9 +1,21 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import ProyectTechsContainer from "./ProyectTechsContainer";
 
-const ProyectsCarts = ({ name, imagePC, imageMobile, url, techs }) => {
+const ProyectsCarts = ({ name, imagePC, imageMobile, url, techs, description }) => {
   const [showTechs, setShowTechs] = useState(false);
+
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const updateScreenWidth = () => {
+      setScreenWidth(window.innerWidth);
+    };
+    window.addEventListener("resize", updateScreenWidth);
+    return () => {
+      window.removeEventListener("resize", updateScreenWidth);
+    };
+  }, []);
 
   return (
     <Link
@@ -14,7 +26,7 @@ const ProyectsCarts = ({ name, imagePC, imageMobile, url, techs }) => {
       onMouseLeave={() => setShowTechs(false)}
       data-aos="zoom-in"
     >
-      <div className="relative rounded-lg bg-slate-700 flex flex-col justify-between proyectsCards ease-in duration-100 p-3 m-5">
+      <div className="relative rounded-lg bg-slate-700 flex flex-col justify-between ease-in duration-100 p-3 m-3 md:m-5">
         <h2 className="text-center text-base md:text-lg font-bold mb-3 italic text-slate-50 tracking-widest underline">
           {name}
         </h2>
@@ -22,15 +34,20 @@ const ProyectsCarts = ({ name, imagePC, imageMobile, url, techs }) => {
           src={imagePC}
           alt={name}
           className={`rounded-lg ease-in duration-200 ${
-            showTechs ? "blur-sm opacity-40" : "blur-none"
+            showTechs ? "md:blur-sm md:opacity-40" : "blur-none"
           }`}
         />
-        {showTechs && <ProyectTechsContainer techs={techs} />}
+        {screenWidth > 768 ? (
+          showTechs && <ProyectTechsContainer techs={techs} />
+          ) : (
+            <>
+              <p className="text-slate-50 pt-3 text-base my-2 border-b-2 pb-2 w-full text-center">{description}</p>
+              <ProyectTechsContainer techs={techs} />
+            </>
+        )}
       </div>
     </Link>
   );
 };
 
 export default ProyectsCarts;
-
-//VER COMO Y EN DONDE PONER LA IMAGEN DE MOBILE

@@ -2,6 +2,7 @@ export const profile_data = {
   proyects: [
     {
       name: "DreamBurger | E-commerce",
+      description: "description",
       imagePC: "/img/dreamburger/dreamburger-pc.png",
       imageMobile: "/img/dreamburger/dreamburger-mobile.png",
       url: "https://dreamburger.netlify.app/",
@@ -30,6 +31,7 @@ export const profile_data = {
     },
     {
       name: "LuxuryMobile | E-commerce",
+      description: "description",
       imagePC: "/img/luxurymobile/luxurymobile-pc.png",
       imageMobile: "/img/luxurymobile/luxurymobile-mobile.png",
       url: "https://luxurymobile.netlify.app/",
@@ -67,6 +69,7 @@ export const profile_data = {
     },
     {
       name: "API RESTful | E-commerce",
+      description: "description",
       imagePC: "/img/apirestful.png",
       imageMobile: "",
       url: "https://github.com/LucianoAmato7/Proyecto-Final-Backend-Coderhouse",
