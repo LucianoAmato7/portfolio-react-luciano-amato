@@ -22,7 +22,7 @@ const ProyectTechsContainer = ({ techs }) => {
           src={t.image}
           alt={t.name}
           className="w-6 sm:w-14 md:w-14 rounded-lg bg-slate-700 md:p-3 bg-opacity-60"
-          // data-aos="zoom-in"
+          data-aos="zoom-in"
         />
       ))}
     </div>

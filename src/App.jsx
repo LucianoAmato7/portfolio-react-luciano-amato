@@ -8,6 +8,7 @@ import Technologies from "./components/profile/description/technologies/Technolo
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import BtnScrollToTop from "./components/buttonScrollToTop/BtnScrollToTop";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         <Technologies/>
         <ProyectContainer/>
         {/* <RatingStars/> */}
+        <BtnScrollToTop/>
       </BrowserRouter>
     </div>
   );

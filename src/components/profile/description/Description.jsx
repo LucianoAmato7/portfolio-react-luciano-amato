@@ -13,7 +13,7 @@ const Description = () => {
       >
         Respetuoso, carismático y compañero. Profesional y ético en mi enfoque
         hacia el trabajo. Entusiasta por crecer en la industria IT, enfrento
-        desafíos profesionales y técnicos. Experiencia en proyectos front y
+        desafíos profesionales y técnicos. Experiencia en proyectos front-end y
         back-end, comprendiendo a fondo la arquitectura web. Listo para
         consolidar habilidades y crecer en el campo. Mi enfoque orientado a
         resultados, capacidad de resolución de problemas y habilidades de

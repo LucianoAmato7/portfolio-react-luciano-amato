@@ -6,6 +6,8 @@ body{
   background: rgb(3,0,65);
   background: linear-gradient(117deg, rgb(3,0,65) 0%, rgb(70, 70, 70) 90% 100%);
   margin: 0;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .backGroundIMG::before {
