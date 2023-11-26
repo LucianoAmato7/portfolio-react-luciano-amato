@@ -12,7 +12,7 @@ const Technologies = () => {
           <Link className="md:w-1/4 w-1/2" key={index} to={`${techs.web}`} target="_blank" data-aos="zoom-in">
             <div className="rounded-lg bg-slate-700 flex flex-col justify-between py-5 md:py-8 m-2 techsCards ease-in duration-100">
               <img
-                className="w-16 self-center"
+                className="w-12 self-center"
                 src={techs.image}
                 alt={techs.name}
               />

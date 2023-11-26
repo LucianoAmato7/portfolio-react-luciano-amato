@@ -1,29 +1,13 @@
-import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import ProyectTechsContainer from "./ProyectTechsContainer";
 
 const ProyectsCarts = ({ name, imagePC, imageMobile, url, techs, description }) => {
-  const [showTechs, setShowTechs] = useState(false);
-
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-
-  useEffect(() => {
-    const updateScreenWidth = () => {
-      setScreenWidth(window.innerWidth);
-    };
-    window.addEventListener("resize", updateScreenWidth);
-    return () => {
-      window.removeEventListener("resize", updateScreenWidth);
-    };
-  }, []);
 
   return (
     <Link
       className="md:w-1/2 w-auto"
       to={`${url}`}
       target="_blank"
-      onMouseEnter={() => setShowTechs(true)}
-      onMouseLeave={() => setShowTechs(false)}
       data-aos="zoom-in"
     >
       <div className="relative rounded-lg bg-slate-700 flex flex-col justify-between ease-in duration-100 p-3 m-3 md:m-5">
@@ -33,18 +17,10 @@ const ProyectsCarts = ({ name, imagePC, imageMobile, url, techs, description }) 
         <img
           src={imagePC}
           alt={name}
-          className={`rounded-lg ease-in duration-200 ${
-            showTechs ? "md:blur-sm md:opacity-40" : "blur-none"
-          }`}
+          className="rounded-lg ease-in duration-200"
         />
-        {screenWidth > 768 ? (
-          showTechs && (<ProyectTechsContainer techs={techs} />)
-          ) : (
-            <>
-              <p className="text-slate-100 pt-3 text-base my-2 border-b-2 pb-2 w-full text-center">{description}</p>
-              <ProyectTechsContainer techs={techs}/>
-            </>
-        )}
+        <p className="text-slate-100 pt-3 text-sm my-2 border-b-2 pb-2 w-full text-center">{description}</p>
+        <ProyectTechsContainer techs={techs}/>
       </div>
     </Link>
   );

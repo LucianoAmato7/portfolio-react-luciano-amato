@@ -5,7 +5,7 @@ const ProfileTitle = () => {
         className="text-2xl md:text-5xl drop-shadow-2xl font-semibold md:mb-20 md:ml-5 text-slate-200 text-center hidden md:block"
         data-aos="zoom-in-right"
       >
-        ¡Bienvenido! soy:
+        ¡Bienvenido! soy
       </h2>
       <h1
         className="md:text-6xl text-4xl drop-shadow-2xl text-center font-semibold"

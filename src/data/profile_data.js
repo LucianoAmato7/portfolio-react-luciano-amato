@@ -2,7 +2,8 @@ export const profile_data = {
   proyects: [
     {
       name: "DreamBurger | E-commerce",
-      description: "Interfaz de sitio ficticio de tienda de comida rápida online con menú, carrito y simulación de compra (FRONT-END).",
+      description:
+        "Interfaz de sitio ficticio de tienda de comida rápida online con menú, carrito y simulación de compra (FRONT-END).",
       imagePC: "/img/dreamburger/dreamburger-pc.png",
       imageMobile: "/img/dreamburger/dreamburger-mobile.png",
       url: "https://dreamburger.netlify.app/",
@@ -31,7 +32,8 @@ export const profile_data = {
     },
     {
       name: "LuxuryMobile | E-commerce",
-      description: "Interfaz de sitio ficticio de tienda de SmarthPhones online con categorías, carrito y simulación de orden de compra (FRONT-END).",
+      description:
+        "Interfaz de sitio ficticio de tienda de SmarthPhones online con categorías, carrito y simulación de orden de compra (FRONT-END).",
       imagePC: "/img/luxurymobile/luxurymobile-pc.png",
       imageMobile: "/img/luxurymobile/luxurymobile-mobile.png",
       url: "https://luxurymobile.netlify.app/",
@@ -69,7 +71,8 @@ export const profile_data = {
     },
     {
       name: "API RESTful | E-commerce",
-      description: "Diseño MVC, Administración de carritos de usuario y productos (CRUD), Sistema de inicio de sesión, Registro de usuarios, Generación de órdenes, Notificaciones vía email/SMS, Manejo de servidor (BACK-END)",
+      description:
+        "Diseño MVC, Administración de carritos de usuario y productos (CRUD), Sistema de inicio de sesión, Registro de usuarios, Generación de órdenes, Notificaciones vía email/SMS, Manejo de servidor (BACK-END).",
       imagePC: "/img/apirestful.png",
       imageMobile: "",
       url: "https://github.com/LucianoAmato7/Proyecto-Final-Backend-Coderhouse",
@@ -89,7 +92,7 @@ export const profile_data = {
         {
           name: "MongoDB",
           image: "/img/technologies/mongodb.png",
-        }
+        },
       ],
     },
   ],
