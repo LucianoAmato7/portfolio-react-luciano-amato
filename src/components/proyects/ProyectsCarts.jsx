@@ -38,11 +38,11 @@ const ProyectsCarts = ({ name, imagePC, imageMobile, url, techs, description }) 
           }`}
         />
         {screenWidth > 768 ? (
-          showTechs && <ProyectTechsContainer techs={techs} />
+          showTechs && (<ProyectTechsContainer techs={techs} />)
           ) : (
             <>
-              <p className="text-slate-50 pt-3 text-base my-2 border-b-2 pb-2 w-full text-center">{description}</p>
-              <ProyectTechsContainer techs={techs} />
+              <p className="text-slate-100 pt-3 text-base my-2 border-b-2 pb-2 w-full text-center">{description}</p>
+              <ProyectTechsContainer techs={techs}/>
             </>
         )}
       </div>
