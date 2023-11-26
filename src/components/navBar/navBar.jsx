@@ -13,7 +13,7 @@ const NavBar = () => {
       className="z-20 opacity-95 fixed top-0 w-full bg-slate-800 shadow-md flex md:justify-end"
       data-aos="fade-down"
     >
-      <ul className="md:w-1/5 w-full flex flex-row justify-between items-center text-slate-200 text-2xl md:mr-20 my-2 mx-10">
+      <ul className="md:w-1/5 w-full flex flex-row justify-between items-center text-slate-200 text-xl md:mr-20 my-2 mx-10">
         <li>
           <Link
             to="https://api.whatsapp.com/send?phone=5491138752819"
