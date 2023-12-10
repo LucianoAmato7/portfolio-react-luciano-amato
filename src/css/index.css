@@ -10,74 +10,12 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
-.backGroundIMG::before {
-  content: "";
-  background-image: url('img/backGroundimg-1.jpg');
-  background-size: cover;
-  background-position: center;
-  filter: blur(4px);
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
 .avatar{
   border-radius: 0% 100% 0% 100% / 25% 75% 25% 75% ;
-  /* border-radius: 13% 87% 13% 87% / 13% 86% 14% 87% ; */
   background: rgba(0, 2, 144, 0.61);
   background: linear-gradient(75deg, rgba(0, 2, 144, 0.829) 0%, rgba(42,0,65,1) 100%);
 }
 
-/* .letra {
-  font-weight: bold;
-  background-image: linear-gradient(100deg, rgb(0, 4, 255) 0%, rgb(105, 1, 161) 60%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-} */
-
-/* .firstName::before{
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(170, 170, 170, 0.226);
-  filter: blur(40px);
-  z-index: -1;
-  border-top-right-radius: 2rem;
-  border-top-left-radius: 2rem;
-  transition: 0.2s all ease-out;
-}
-
-.firstName:hover::before{
-  filter: blur(50px);
-} */
-
-/* .avatar::before{
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(170, 170, 170, 0.226);
-  border-radius: 100%;
-  filter: blur(40px);
-  transition: 0.2s all ease-out;
-}
-
-.avatar:hover::before{
-  filter: blur(50px);
-} */
-
 .techsCards:hover{
   background-color: rgba(253, 197, 92, 0.596);
 }
-
-/* .proyectsCards:hover{
-  background-color: rgba(253, 197, 92, 0.596);
-} */

@@ -16,7 +16,7 @@ const BtnScrollToTop = () => {
           scrollToTop(e);
         }}
       >
-        <FaArrowCircleUp className="text-4xl drop-shadow-lg hover:drop-shadow-xl animate-bounce text-slate-300 hover:text-slate-100 ease-in duration-100"/>
+        <FaArrowCircleUp className="text-4xl drop-shadow-md hover:drop-shadow-xl animate-bounce text-slate-400 hover:text-slate-300 ease-in duration-100"/>
       </button>
     </div>
   );
