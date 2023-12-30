@@ -2,13 +2,13 @@ const Description = () => {
   return (
     <div className="mb-16 md:mb-36 w-5/6 md:w-4/6 pt-2 md:pt-24 flex flex-col">
       <h2
-        className="italic text-2xl md:text-3xl mb-12 font-semibold text-slate-200"
+        className="italic text-2xl md:text-3xl mb-12 font-semibold text-slate-200 tracking-normal"
         data-aos="fade-right"
       >
         ACERCA DE MI:
       </h2>
       <p
-        className="text-base md:text-xl tracking-normal leading-relaxed text-slate-200 text-justify"
+        className="text-base md:text-xl leading-relaxed text-slate-200 text-justify tracking-wide"
         data-aos="fade-left"
       >
         Respetuoso, carismático y compañero. Profesional y ético en mi enfoque

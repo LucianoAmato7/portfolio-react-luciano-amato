@@ -10,17 +10,17 @@ import { BsFiletypePdf } from "react-icons/bs";
 const NavBar = () => {
   return (
     <div
-      className="md:border-b-2 border-slate-400 md:w-1/2"
+      className="md:border-b border-slate-200 md:w-1/2"
       data-aos="fade-right"
     >
-      <ul className="flex justify-around items-center text-slate-400 text-xl md:mb-2">
+      <ul className="flex justify-around items-center text-slate-200 text-xl md:mb-3">
         <li>
           <Link
             to="https://api.whatsapp.com/send?phone=5491138752819"
             target="_blank"
             title="whatsapp"
           >
-            <AiOutlineWhatsApp className="hover:scale-125 ease-out duration-300 shadow-2xl"/>
+            <AiOutlineWhatsApp className="hover:text-white hover:scale-125 ease-out duration-300 shadow-2xl"/>
           </Link>
         </li>
         <li>
@@ -29,7 +29,7 @@ const NavBar = () => {
             target="_blank"
             title="LinkedIn"
           >
-            <AiFillLinkedin className="hover:scale-125 ease-out duration-300 shadow-2xl"/>
+            <AiFillLinkedin className="hover:text-white hover:scale-125 ease-out duration-300 shadow-2xl"/>
           </Link>
         </li>
         <li>
@@ -38,7 +38,7 @@ const NavBar = () => {
             target="_blank"
             title="GitHub"
           >
-            <AiFillGithub className="hover:scale-125 ease-out duration-300 shadow-2xl"/>
+            <AiFillGithub className="hover:text-white hover:scale-125 ease-out duration-300 shadow-2xl"/>
           </Link>
         </li>
         <li>
@@ -52,7 +52,7 @@ const NavBar = () => {
             target="_blank"
             title="CV"
           >
-            <BsFiletypePdf className="hover:scale-125 ease-out duration-300 shadow-2xl"/>
+            <BsFiletypePdf className="hover:text-white hover:scale-125 ease-out duration-300 shadow-2xl"/>
           </Link>
         </li>
       </ul>

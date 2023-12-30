@@ -5,7 +5,7 @@ export const profile_data = {
       description:
         "Interfaz de sitio ficticio de tienda de comida rápida online con menú, carrito y simulación de compra (FRONT-END).",
       imagePC: "/img/dreamburger/dreamburger-pc.png",
-      imageMobile: "/img/dreamburger/dreamburger-mobile.png",
+      imageMobile: "/img/dreamburger/dreamburger-mobile.jpg",
       url: "https://dreamburger.netlify.app/",
       techs: [
         {
@@ -35,7 +35,7 @@ export const profile_data = {
       description:
         "Interfaz de sitio ficticio de tienda de SmarthPhones online con categorías, carrito y simulación de orden de compra (FRONT-END).",
       imagePC: "/img/luxurymobile/luxurymobile-pc.png",
-      imageMobile: "/img/luxurymobile/luxurymobile-mobile.png",
+      imageMobile: "/img/luxurymobile/luxurymobile-mobile.jpg",
       url: "https://luxurymobile.netlify.app/",
       techs: [
         {

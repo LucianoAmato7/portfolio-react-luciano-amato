@@ -11,8 +11,8 @@ const Presentation = () => {
         <ProfileTitle />
         <ProfileAvatar />
       </div>
-      <div className="border-slate-400 w-full md:w-1/2 md:self-end md:border-b-2 flex flex-row text-slate-400 justify-center md:pr-16">
-        <CiLocationOn className="text-xl mb-2"/> 
+      <div className="border-slate-200 w-full md:w-1/2 md:self-end border-b flex flex-row text-slate-300 justify-center md:pr-16">
+        <CiLocationOn className="text-xl mb-3"/> 
         <span className="ml-1">Buenos Aires, Argentina.</span>
       </div>
     </div>
