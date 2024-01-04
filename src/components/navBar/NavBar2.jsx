@@ -13,7 +13,7 @@ const NavBar = () => {
       className="md:border-b border-slate-200 md:w-1/2"
       data-aos="fade-right"
     >
-      <ul className="flex justify-around items-center text-slate-200 text-xl md:mb-3">
+      <ul className="flex justify-around items-center text-slate-200 text-2xl md:mb-3">
         <li>
           <Link
             to="https://api.whatsapp.com/send?phone=5491138752819"
@@ -23,7 +23,7 @@ const NavBar = () => {
             <AiOutlineWhatsApp className="hover:text-white hover:scale-125 ease-out duration-300 shadow-2xl"/>
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link
             to="https://www.linkedin.com/in/luciano-nicolas-amato/"
             target="_blank"
@@ -31,8 +31,8 @@ const NavBar = () => {
           >
             <AiFillLinkedin className="hover:text-white hover:scale-125 ease-out duration-300 shadow-2xl"/>
           </Link>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <Link
             to="https://github.com/LucianoAmato7/"
             target="_blank"
@@ -40,7 +40,7 @@ const NavBar = () => {
           >
             <AiFillGithub className="hover:text-white hover:scale-125 ease-out duration-300 shadow-2xl"/>
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link to="mailto:luciano2697@outlook.com.ar" title="E-mail">
             <AiOutlineMail className="hover:scale-125 ease-out duration-300 shadow-2xl"/>
