@@ -1,8 +1,8 @@
 const ProfileTitle = () => {
   return (
     <div className="z-10 relative pb-6 text-white mb-10 md:mb-0 tracking-widest">
-      <div className="absolute -left-20 -top-14 w-full h-full bg-blue-900 rounded-full mix-blend-multiply filter blur-xl opacity-60 animate-pulse" />
-      <div className="absolute -right-20 -bottom-14 w-full h-full bg-purple-950 rounded-full mix-blend-multiply filter blur-xl opacity-60 animate-pulse" />
+      <div className="absolute -left-20 -top-14 w-full h-full bg-blue-900 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse" />
+      <div className="absolute -right-20 -bottom-14 w-full h-full bg-purple-950 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse" />
       <h2
         className="font-light text-base md:text-xl xl:text-2xl drop-shadow-2xl mb-2 md:mb-4 md:ml-5 text-center"
         data-aos="zoom-in-right"
@@ -10,7 +10,7 @@ const ProfileTitle = () => {
         ¡Bienvenido! soy
       </h2>
       <h1
-        className="text-4xl md:text-4xl xl:text-6xl drop-shadow-2xl text-center font-bold"
+        className="text-3xl md:text-4xl xl:text-6xl drop-shadow-2xl text-center font-bold"
         data-aos="fade-right"
       >
         Luciano Nicolás Amato
