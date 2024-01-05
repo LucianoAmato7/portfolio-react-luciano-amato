@@ -2,7 +2,7 @@ const Description = () => {
   return (
     <div className="mb-16 md:mb-36 w-5/6 md:w-4/6 pt-2 flex flex-col">
       <h2
-        className="italic text-2xl md:text-3xl mb-12 font-semibold text-slate-200 tracking-normal"
+        className="italic text-2xl mb-9 font-semibold text-slate-200 tracking-normal"
         data-aos="fade-right"
       >
         ACERCA DE MI:

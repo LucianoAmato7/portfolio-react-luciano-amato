@@ -8,31 +8,31 @@ import { BsFiletypePdf } from "react-icons/bs";
 const Aside = () => {
   return (
     <div
-      className="flex md:absolute md:inset-y-0 md:left-0 w-full"
-      // data-aos="fade-right"
+      className="md:absolute md:left-0 md:top-1/2 md:transform md:-translate-y-1/2 w-full md:w-fit"
+      data-aos="fade-right"
     >
-      <ul className="flex flex-row md:flex-col justify-between md:justify-center text-slate-300 text-xl md:text-3xl md:ml-14 md:gap-y-1">
-        <li>
+      <ul className="flex flex-row md:flex-col justify-around md:justify-center text-slate-300 text-lg md:text-3xl md:ml-14 md:gap-y-14">
+        <li className="border rounded-xl p-2 hover:text-white hover:scale-125 ease-out duration-300 shadow-lg shadow-black hover:shadow-white">
           <Link
             to="https://api.whatsapp.com/send?phone=5491138752819"
             target="_blank"
             title="whatsapp"
           >
-            <AiOutlineWhatsApp className="hover:text-white hover:scale-125 ease-out duration-300 shadow-2xl"/>
+            <AiOutlineWhatsApp/>
           </Link>
         </li>
-        <li>
+        <li className="border rounded-xl p-2 hover:text-white hover:scale-125 ease-out duration-300 shadow-lg shadow-black hover:shadow-white">
           <Link to="mailto:luciano2697@outlook.com.ar" title="E-mail">
-            <AiOutlineMail className="hover:text-white hover:scale-125 ease-out duration-300 shadow-2xl"/>
+            <AiOutlineMail/>
           </Link>
         </li>
-        <li>
+        <li className="border rounded-xl p-2 hover:text-white hover:scale-125 ease-out duration-300 shadow-lg shadow-black hover:shadow-white">
           <Link
             to="/pdf/CurriculumVitae-LucianoAmato.pdf"
             target="_blank"
             title="CV"
           >
-            <BsFiletypePdf className="hover:text-white hover:scale-125 ease-out duration-300 shadow-2xl"/>
+            <BsFiletypePdf/>
           </Link>
         </li>
       </ul>
