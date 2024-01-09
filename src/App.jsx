@@ -6,7 +6,7 @@ import Technologies from "./components/profile/description/technologies/Technolo
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
-import BtnScrollToTop from "./components/buttonScrollToTop/BtnScrollToTop";
+import Footer from "./components/footer/Footer";
 
 function App() {
 
@@ -21,7 +21,7 @@ function App() {
         <Description/>
         <Technologies/>
         <ProyectContainer/>
-        <BtnScrollToTop/>
+        <Footer/>
       </BrowserRouter>
     </div>
   );
