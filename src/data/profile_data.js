@@ -123,6 +123,11 @@ export const profile_data = {
       web: "https://react.dev/",
     },
     {
+      name: "NextJS",
+      image: "/img/technologies/next.png",
+      web: "https://nextjs.org/",
+    },
+    {
       name: "NodeJS",
       image: "/img/technologies/nodejs.png",
       web: "https://nodejs.org/en/about",
