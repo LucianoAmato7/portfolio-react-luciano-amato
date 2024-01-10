@@ -5,8 +5,7 @@ import { BsFiletypePdf } from "react-icons/bs";
 const Aside = () => {
   return (
     <div
-      className="md:absolute md:left-0 md:top-96 md:transform md:-translate-y-1/2 w-full md:w-fit md:mb-0 mb-14 h-full"
-      data-aos="fade-right"
+      className="md:absolute md:left-0 md:top-96 w-full md:w-fit md:mb-0 mb-14 h-full"
     >
       <ul className="flex flex-row md:flex-col justify-around md:justify-center text-slate-300 text-lg md:text-3xl md:ml-14 md:gap-y-14">
         <li className="border rounded-xl p-2 hover:text-white hover:scale-125 ease-out duration-300 shadow-lg shadow-black hover:shadow-slate-500 bg-slate-500 bg-opacity-30">

@@ -3,13 +3,11 @@ const Description = () => {
     <div className="mb-16 md:mb-36 w-5/6 md:w-4/6 pt-2 flex flex-col">
       <h2
         className="italic text-2xl mb-9 font-semibold text-slate-200 tracking-normal"
-        data-aos="zoom-in"
       >
         ACERCA DE MI:
       </h2>
       <p
         className="text-base md:text-xl leading-relaxed text-slate-200 text-justify tracking-wide"
-        data-aos="zoom-in"
       >
         Respetuoso, carismático y compañero. Profesional y ético en mi enfoque
         hacia el trabajo. Entusiasta por crecer en la industria IT, enfrento

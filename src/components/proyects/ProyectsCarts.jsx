@@ -16,7 +16,7 @@ const ProyectsCarts = ({
       target="_blank"
       data-aos="zoom-in"
     >
-      <div className="relative rounded-lg bg-slate-700 flex flex-col justify-between ease-in duration-200 p-3 m-3 md:m-5 shadow-lg hover:shadow-md hover:shadow-slate-600">
+      <div className="relative rounded-lg bg-slate-700 flex flex-col justify-between ease-in duration-200 p-3 m-3 md:m-5 shadow-lg hover:shadow-md hover:shadow-slate-600 md:mb-4 mb-7">
         <h2 className="text-center text-base md:text-lg font-bold mb-3 italic text-slate-50 tracking-widest underline">
           {name}
         </h2>
