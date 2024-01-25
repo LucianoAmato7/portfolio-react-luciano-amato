@@ -10,6 +10,7 @@ const ProfileSocialNetworks = () => {
           className={
             "w-12 hover:scale-125 ease-out duration-300 drop-shadow-xl rounded-full bg-slate-300 p-1" 
           }
+          loading="lazy"
         />
       </Link>
       <Link to={"https://github.com/LucianoAmato7"} target="_blank">
@@ -19,6 +20,7 @@ const ProfileSocialNetworks = () => {
           className={
             "w-12 hover:scale-125 ease-out duration-300 drop-shadow-xl rounded-full bg-slate-300 p-1"
           }
+          loading="lazy"
         />
       </Link>
     </div>

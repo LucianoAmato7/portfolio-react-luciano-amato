@@ -15,6 +15,7 @@ const Technologies = () => {
                 className="w-12 self-center"
                 src={techs.image}
                 alt={techs.name}
+                loading="lazy"
               />
               <p className="text-white text-center text-base md:text-lg mt-2 tracking-wider">
                 {techs.name}

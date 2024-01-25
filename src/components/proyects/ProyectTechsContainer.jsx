@@ -13,6 +13,7 @@ const ProyectTechsContainer = ({ techs }) => {
             src={t.image}
             alt={t.name}
             className="w-6 md:w-8 my-1 md:my-2"
+            loading="lazy"
           />
         ))}
       </div>

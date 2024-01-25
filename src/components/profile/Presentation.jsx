@@ -5,7 +5,7 @@ import { CiLocationOn } from "react-icons/ci";
 
 const Presentation = () => {
   return (
-      <div className="min-h-screen w-full flex flex-col justify-between items-center align-middle md:w-3/4 self-center pb-20 md:pt-48 pt-5">
+      <div className="min-h-screen w-full flex flex-col justify-between items-center align-middle md:w-3/4 self-center pb-20 xl:pt-48 pt-10">
         <Aside />
         <ProfileTitle />
         <ProfileAvatar />
