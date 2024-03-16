@@ -17,3 +17,21 @@ body{
 .techsCards:hover{
   background-color: rgba(253, 197, 92, 0.596);
 }
+
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2c2c2c;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 6px; 
+  border: 3px solid #2c2c2c; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #777; 
+}

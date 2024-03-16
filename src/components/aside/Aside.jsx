@@ -24,7 +24,7 @@ const Aside = () => {
         </li>
         <li className="border rounded-xl p-2 hover:text-white hover:scale-125 ease-out duration-300 shadow-lg shadow-black hover:shadow-slate-500 bg-slate-500 bg-opacity-30">
           <Link
-            to="/pdf/CurriculumVitae-LucianoAmato.pdf"
+            to="/pdf/CV - Luciano Nicolas Amato - ES.pdf"
             target="_blank"
             title="CV"
           >
