@@ -3,14 +3,16 @@
 @import 'tailwindcss/utilities';
 
 body{
-  background: linear-gradient(117deg, rgb(3,0,65) 0%, rgb(70, 70, 70) 90% 100%);
+  background: linear-gradient(117deg, rgba(3, 0, 49, 0.975) 0%, rgb(70, 70, 70) 90% 100%);
   margin: 0;
   font-family: 'Oswald', sans-serif;
   font-family: 'Roboto', sans-serif;
 }
 
 .avatar{
-  background: linear-gradient(90deg, rgba(0, 2, 144, 0.7) 0%, rgba(43, 0, 66, 0.315) 100%);
+  /* background: linear-gradient(90deg, rgba(0, 2, 144, 0.7) 0%, rgba(43, 0, 66, 0.315) 100%); */
+  /* background: linear-gradient(120deg, rgba(0, 8, 255, 0.841) 0%, rgba(69, 22, 94, 0.841) 100%); */
+  background: linear-gradient(125deg, rgba(167, 165, 165, 0.857) 0%, rgba(0, 4, 125, 0.857) 100%);
   border: 1px solid white;
 }
 

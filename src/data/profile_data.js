@@ -1,4 +1,20 @@
 export const profile_data = {
+  education: [
+  {
+    institute: "CoderHouse",
+    career: "Desarrollo Web Full Stack",
+    image: "/img/coderhouse.png",
+    url: "https://www.coderhouse.com/",
+    status: "Finalizado"
+  },
+  {
+    institute: "ORT Argentina",
+    career: "Analista de Sistemas",
+    image: "/img/ort.png",
+    url: "https://www.ort.edu.ar/",
+    status: "En curso"
+  }
+  ],
   proyects: [
     {
       name: "DreamBurger | E-commerce",
@@ -156,6 +172,11 @@ export const profile_data = {
       name: "MaterialUI",
       image: "/img/technologies/materialui.png",
       web: "https://mui.com/",
+    },
+    {
+      name: "Java",
+      image: "/img/technologies/java.png",
+      web: "https://www.java.com/es/",
     },
     {
       name: "MongoDB",
