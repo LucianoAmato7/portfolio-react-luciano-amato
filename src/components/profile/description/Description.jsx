@@ -7,7 +7,7 @@ const Description = () => {
         ACERCA DE MI:
       </h2>
       <p
-        className="text-base md:text-xl leading-relaxed text-slate-200 text-justify tracking-wide"
+        className="text-base md:text-lg leading-relaxed text-slate-200 text-justify tracking-wide"
       >
         Respetuoso, carismático y compañero. Profesional y ético en mi enfoque
         hacia el trabajo. Entusiasta por crecer en la industria IT, enfrento
