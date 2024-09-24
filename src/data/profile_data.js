@@ -82,7 +82,7 @@ export const profile_data = {
         {
           name: "Firebase",
           image: "/img/technologies/firebase.png",
-        },
+        }
       ],
     },
     {
@@ -188,5 +188,10 @@ export const profile_data = {
       image: "/img/technologies/firebase.png",
       web: "https://firebase.google.com/?hl=es",
     },
+    {
+      name: "PostgreSQL",
+      image: "/img/technologies/postgresql.png",
+      web: "https://www.postgresql.org/",
+    }
   ],
 };
