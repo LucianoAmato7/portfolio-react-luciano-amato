@@ -192,6 +192,27 @@ export const profile_data = {
       name: "PostgreSQL",
       image: "/img/technologies/postgresql.png",
       web: "https://www.postgresql.org/",
+    },
+    {
+      name: "TypeScript",
+      image: "/img/technologies/typescript.png",
+      web: "https://www.typescriptlang.org/",
+    },
+    {
+      name: "React Native",
+      image: "/img/technologies/react.png",
+      web: "https://reactnative.dev/",
+    }
+    ,
+    {
+      name: ".NET",
+      image: "/img/technologies/.net.png",
+      web: "https://dotnet.microsoft.com/es-es/",
+    },
+    {
+      name: "C#",
+      image: "/img/technologies/csharp.png",
+      web: "https://learn.microsoft.com/es-es/dotnet/csharp/",
     }
   ],
 };
