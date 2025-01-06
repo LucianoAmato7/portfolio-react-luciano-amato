@@ -206,7 +206,7 @@ export const profile_data = {
     ,
     {
       name: ".NET",
-      image: "/img/technologies/.net.png",
+      image: "/img/technologies/dotnet.png",
       web: "https://dotnet.microsoft.com/es-es/",
     },
     {
